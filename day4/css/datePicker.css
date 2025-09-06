@@ -1,0 +1,27 @@
+/* datepicker.css */
+.custom-datepicker {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.custom-datepicker:focus {
+  outline: none;
+  border-color: #533461;
+  box-shadow: 0 0 4px rgba(83, 52, 97, 0.5);
+}
+
+.react-datepicker {
+  font-family: sans-serif;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.react-datepicker__header {
+  background-color: #533461;
+  color: white;
+}
